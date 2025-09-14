@@ -1,7 +1,9 @@
-Atividade 1 - Tópicos Especiais em Estatística
-================
-Ramon Lima de Oliveira Tavares
-14 de setembro de 2025
+# Atividade: Web Scraping e Análise Exploratória de Dados
+
+**Curso/Disciplina:** Tópicos Especiais em Estatística – Computacional  
+**Professor:** Prof. Dr. Jodavid Ferreira  
+**Aluno:** Ramon Lima de Oliveira Tavares  
+**Data:** 14 de setembro de 2025 
 
 - [0.1 Objetivos](#01-objetivos)
 - [0.2 Introdução](#02-introdução)
@@ -804,7 +806,7 @@ if(exists("top10_weeks")) {
 }
 ```
 
-    ## [Download CSV Top10](output/top10_weeks.csv)
+[Download CSV Top10](output/top10_weeks.csv)
 
 ``` r
 if(exists("top1_counts")) {
@@ -819,13 +821,8 @@ if(exists("top1_counts")) {
 }
 ```
 
-    ## [Download CSV Filmes #1](output/top1_counts.csv)
+[Download CSV Filmes #1](output/top1_counts.csv)
 
-``` r
-cat("Tabelas top10 e top1 salvas em output/ (se existirem)\n")
-```
-
-    ## Tabelas top10 e top1 salvas em output/ (se existirem)
 
 # 16 Sessão final — Detalhes do Ambiente de Trabalho
 
@@ -869,3 +866,4 @@ sessionInfo()
     ## [41] Rcpp_1.1.0         xfun_0.53          tibble_3.3.0       tidyselect_1.2.1  
     ## [45] rstudioapi_0.17.1  farver_2.1.2       htmltools_0.5.8.1  websocket_1.4.4   
     ## [49] labeling_0.4.3     rmarkdown_2.29     compiler_4.5.1     S7_0.2.0
+
